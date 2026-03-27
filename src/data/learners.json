@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u1",
+    "name": "Aman Gupta",
+    "level": 5,
+    "xp": 450,
+    "skills": ["React", "Node.js", "MongoDB"],
+    "status": "Available for Freelance"
+  },
+  {
+    "id": "u2",
+    "name": "Priya Sharma",
+    "level": 3,
+    "xp": 280,
+    "skills": ["Python", "SQL", "Data Analysis"],
+    "status": "Currently Busy"
+  },
+  {
+    "id": "u3",
+    "name": "Rahul Verma",
+    "level": 8,
+    "xp": 750,
+    "skills": ["Google Cloud", "Linux", "Networking"],
+    "status": "Available for Freelance"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "courseId": "db-101",
+    "title": "Database Fundamentals",
+    "description": "Learn the core concepts of databases, SQL, and data modeling.",
+    "chapters": [
+      {
+        "chapterId": "db-ch-1",
+        "title": "Introduction to Databases",
+        "content": "A database is an organized collection of structured data. \n\nDatabases allow for easy access, management, and updating. Unlike simple flat files, databases handle massive amounts of data efficiently and allow multiple users to read/write concurrently without data corruption.",
+        "quiz": {
+          "question": "What is the primary advantage of a database over simple file storage?",
+          "options": ["Slower access", "Handles concurrency and scales better", "It is always free", "It only stores numbers"],
+          "correctAnswer": "Handles concurrency and scales better",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "db-ch-2",
+        "title": "Understanding SQL",
+        "content": "SQL (Structured Query Language) is the standard language for dealing with Relational Databases. \n\nIt allows you to insert, search, update, and delete database records. Every action you perform in a relational DB is done via an SQL query.",
+        "quiz": {
+          "question": "What does SQL stand for?",
+          "options": ["Structured Question Logic", "Simple Query Language", "Structured Query Language", "Standard Query Logic"],
+          "correctAnswer": "Structured Query Language",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "db-ch-3",
+        "title": "Relational vs NoSQL",
+        "content": "Databases broadly fall into two categories: Relational (SQL) and Non-Relational (NoSQL). \n\nRelational DBs (like MySQL) store data in tables with strict schemas. NoSQL DBs (like MongoDB) store data in flexible formats like JSON documents, making them great for unstructured data.",
+        "quiz": {
+          "question": "Which database type stores data in flexible, JSON-like documents?",
+          "options": ["Relational DB", "NoSQL DB", "Excel", "CSV"],
+          "correctAnswer": "NoSQL DB",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "db-ch-4",
+        "title": "Primary & Foreign Keys",
+        "content": "A Primary Key is a unique identifier for a record in a table (like a Roll Number). \n\nA Foreign Key is a field in one table that links to the Primary Key of another table, establishing a relationship between the two tables.",
+        "quiz": {
+          "question": "What is the purpose of a Primary Key?",
+          "options": ["To encrypt data", "To uniquely identify a record", "To link to an external website", "To duplicate records"],
+          "correctAnswer": "To uniquely identify a record",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "db-ch-5",
+        "title": "Basic CRUD Operations",
+        "content": "CRUD stands for Create, Read, Update, and Delete. \n\nIn SQL, these map to:\n- Create: INSERT\n- Read: SELECT\n- Update: UPDATE\n- Delete: DELETE\n\nThese four operations are the foundation of any data-driven application.",
+        "quiz": {
+          "question": "Which SQL command corresponds to the 'Read' operation in CRUD?",
+          "options": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+          "correctAnswer": "SELECT",
+          "xpReward": 50
+        }
+      }
+    ]
+  },
+  {
+    "courseId": "react-101",
+    "title": "Advanced React JS",
+    "description": "Master React concepts, components, and state management.",
+    "chapters": [
+      {
+        "chapterId": "re-ch-1",
+        "title": "What is React?",
+        "content": "React is a JavaScript library for building user interfaces, developed by Facebook. \n\nIt allows developers to create large web applications that can change data without reloading the page. Its main goal is to be fast, scalable, and simple.",
+        "quiz": {
+          "question": "React is primarily used for building what?",
+          "options": ["Databases", "User Interfaces", "Operating Systems", "Hardware drivers"],
+          "correctAnswer": "User Interfaces",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "re-ch-2",
+        "title": "Components & Props",
+        "content": "Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. \n\nProps (properties) are arguments passed into React components.",
+        "quiz": {
+          "question": "What do we use to pass data to a React component?",
+          "options": ["State", "Hooks", "Props", "Links"],
+          "correctAnswer": "Props",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "re-ch-3",
+        "title": "State & useState Hook",
+        "content": "State is a built-in React object that is used to contain data or information about the component. \n\nThe useState Hook allows us to track state in a functional component. When state changes, the component re-renders.",
+        "quiz": {
+          "question": "Which Hook is used to manage local component state?",
+          "options": ["useEffect", "useState", "useContext", "useReducer"],
+          "correctAnswer": "useState",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "re-ch-4",
+        "title": "The useEffect Hook",
+        "content": "The useEffect Hook allows you to perform side effects in your components. \n\nSome examples of side effects are: fetching data, directly updating the DOM, and timers. It takes two arguments: a function and an optional dependency array.",
+        "quiz": {
+          "question": "What is a common use case for the useEffect hook?",
+          "options": ["Styling text", "Fetching API data", "Routing pages", "Declaring variables"],
+          "correctAnswer": "Fetching API data",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "re-ch-5",
+        "title": "Handling Events",
+        "content": "Handling events with React elements is very similar to handling events on DOM elements. \n\nReact events are named using camelCase, rather than lowercase. With JSX you pass a function as the event handler, rather than a string.",
+        "quiz": {
+          "question": "How are React event handlers written?",
+          "options": ["lowercase", "camelCase", "UPPERCASE", "kebab-case"],
+          "correctAnswer": "camelCase",
+          "xpReward": 50
+        }
+      }
+    ]
+  },
+  {
+    "courseId": "py-101",
+    "title": "Python Programming",
+    "description": "Start coding in Python, learn control flows and file handling.",
+    "chapters": [
+      {
+        "chapterId": "py-ch-1",
+        "title": "Introduction to Python",
+        "content": "Python is a popular programming language created by Guido van Rossum. \n\nIt is used for web development, data science, software creation, and scripting. It has a simple syntax similar to the English language.",
+        "quiz": {
+          "question": "Why is Python so popular?",
+          "options": ["It is very hard to learn", "It has simple syntax like English", "It only works on Windows", "It requires compilation"],
+          "correctAnswer": "It has simple syntax like English",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "py-ch-2",
+        "title": "Variables and Data Types",
+        "content": "Variables are containers for storing data values. \n\nPython has no command for declaring a variable. A variable is created the moment you first assign a value to it. Common data types include int, float, str, and bool.",
+        "quiz": {
+          "question": "How do you create a variable with the numeric value 5 in Python?",
+          "options": ["x = 5", "int x = 5;", "let x = 5;", "var x = 5"],
+          "correctAnswer": "x = 5",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "py-ch-3",
+        "title": "Control Flow (If/Else)",
+        "content": "Python supports the usual logical conditions from mathematics. \n\nThese conditions can be used in several ways, most commonly in 'if statements' and loops. Indentation (whitespace) is used to define scope in Python.",
+        "quiz": {
+          "question": "What does Python use to define the scope of a code block (like an if statement)?",
+          "options": ["Curly braces {}", "Parentheses ()", "Indentation", "Square brackets []"],
+          "correctAnswer": "Indentation",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "py-ch-4",
+        "title": "Lists and Dictionaries",
+        "content": "Lists are used to store multiple items in a single variable. They are ordered and changeable. \n\nDictionaries are used to store data values in key:value pairs. They are ordered (in modern Python), changeable, and do not allow duplicates.",
+        "quiz": {
+          "question": "Which data structure uses key:value pairs?",
+          "options": ["List", "Tuple", "Set", "Dictionary"],
+          "correctAnswer": "Dictionary",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "py-ch-5",
+        "title": "File Handling",
+        "content": "File handling is an important part of any web application. \n\nPython has several functions for creating, reading, updating, and deleting files. The key function for working with files in Python is the open() function.",
+        "quiz": {
+          "question": "Which function is used to open a file in Python?",
+          "options": ["read()", "file()", "open()", "get()"],
+          "correctAnswer": "open()",
+          "xpReward": 50
+        }
+      }
+    ]
+  },
+  {
+    "courseId": "gcp-101",
+    "title": "Google Cloud Platform",
+    "description": "Learn the basics of cloud computing and GCP networking.",
+    "chapters": [
+      {
+        "chapterId": "gc-ch-1",
+        "title": "What is Cloud Computing?",
+        "content": "Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software—over the Internet ('the cloud'). \n\nIt offers faster innovation, flexible resources, and economies of scale.",
+        "quiz": {
+          "question": "What is delivered over the internet in Cloud Computing?",
+          "options": ["Physical hardware", "Computing services", "Only email", "Local area networks"],
+          "correctAnswer": "Computing services",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "gc-ch-2",
+        "title": "Introduction to GCP",
+        "content": "Google Cloud Platform (GCP) is a suite of cloud computing services provided by Google. \n\nIt runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, and YouTube.",
+        "quiz": {
+          "question": "GCP runs on the same infrastructure as which of these applications?",
+          "options": ["Microsoft Word", "Amazon Store", "YouTube", "Netflix"],
+          "correctAnswer": "YouTube",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "gc-ch-3",
+        "title": "Compute Engine",
+        "content": "Google Compute Engine lets you create and run virtual machines on Google infrastructure. \n\nCompute Engine offers scale, performance, and value that allows you to easily launch large compute clusters on Google's infrastructure.",
+        "quiz": {
+          "question": "What does Google Compute Engine allow you to run?",
+          "options": ["Only static websites", "Virtual Machines", "Physical routers", "Browser extensions"],
+          "correctAnswer": "Virtual Machines",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "gc-ch-4",
+        "title": "Cloud Storage",
+        "content": "Google Cloud Storage is a RESTful online file storage web service for storing and accessing data on Google's infrastructure. \n\nIt is excellent for serving website content, storing data for archival and disaster recovery, or distributing large data objects.",
+        "quiz": {
+          "question": "What type of storage is Google Cloud Storage?",
+          "options": ["Block storage", "Relational Database", "Object storage", "Local storage"],
+          "correctAnswer": "Object storage",
+          "xpReward": 50
+        }
+      },
+      {
+        "chapterId": "gc-ch-5",
+        "title": "VPC & Networking Basics",
+        "content": "A Virtual Private Cloud (VPC) network is a virtual version of a physical network that is implemented inside of Google's production network. \n\nIt provides connectivity for your Compute Engine virtual machine (VM) instances, Kubernetes Engine clusters, and serverless environments.",
+        "quiz": {
+          "question": "What does VPC stand for in GCP?",
+          "options": ["Virtual Public Connection", "Virtual Private Cloud", "Verified Protocol Cloud", "Visual Private Computer"],
+          "correctAnswer": "Virtual Private Cloud",
+          "xpReward": 50
+        }
+      }
+    ]
+  }
+]
